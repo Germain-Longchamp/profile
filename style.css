@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Aleo:300');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+  background: #EBEBEB;
+  color: #7d7d7d;
+}
+
+h1 {
+  font-size: 40px;
+  color: #24a9e2;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Aleo', serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #24a9e2;
+  text-decoration: none;
+  text-align: center;
+}
+
+a :hover {
+  color: black;
+}
+
+i {
+  font-size: 40px;
+}
+
+.img-profil {
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  float: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 30px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+a.bouton {
+  padding: 10px 20px;
+  background: #24a9e2;
+  color: white;
+  display: block;
+  margin : auto;
+  width: 30%;
+  border: solid;
+  border-color: #24a9e2;
+}
+
+a.bouton:hover {
+  background: white;
+  color : #24a9e2;
+  border: solid;
+  border-color: #24a9e2;
+}
+
+.inline {
+  width:100%;
+  text-align: center;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.inline > li {
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+}
+
+.about {
+  text-align: center;
+}
